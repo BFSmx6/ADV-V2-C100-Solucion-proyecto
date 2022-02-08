@@ -81,4 +81,5 @@ function take_snapshot()
         if(img_id=="selfie3"){
             document.getElementById("result3").innerHTML = '<img id="selfie3" src="'+data_uri+'"/>';
         }
-    }}
+    }
+}
