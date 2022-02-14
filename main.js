@@ -20,11 +20,11 @@ recognition.onresult = function(event) {
 }
 
 
-function speak(n){
+function speak(){
     var synth = window.speechSynthesis;
     Webcam.attach(camera);
 
-    speak_data = n;
+    speak_data = "Taking your next Selfie in 5 seconds";
     var utterThis = new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
 
