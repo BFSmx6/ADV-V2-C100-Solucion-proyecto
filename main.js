@@ -24,7 +24,7 @@ function speak(){
     var synth = window.speechSynthesis;
     Webcam.attach(camera);
 
-    speak_data = "Taking your next Selfie in 5 seconds";
+    speak_data = "Tomando tu selfie en 5 segundos";
     var utterThis = new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
 
@@ -33,7 +33,7 @@ function speak(){
     { 
         img_id = "selfie1";
         take_snapshot(); 
-        speak_data = "Taking your next Selfie in 10 seconds";
+        speak_data = "Tomando tu selfie en 10 segundos";
         var utterThis = new SpeechSynthesisUtterance(speak_data);
         synth.speak(utterThis);
 
@@ -43,7 +43,7 @@ function speak(){
     { 
         img_id = "selfie2";
         take_snapshot(); 
-        speak_data = "Taking your next Selfie in 15 seconds";
+        speak_data = "Tomando tu selfie en 15 segundos";
         var utterThis = new SpeechSynthesisUtterance(speak_data);
         synth.speak(utterThis);
         
